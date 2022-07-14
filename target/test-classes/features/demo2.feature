@@ -11,15 +11,15 @@ Feature: testing Playwright with Cucumber feature 2
     Given User navigate to the URL
     And Validates the title of the page to be "ParaBank | Welcome | Online Banking"
     Then user logs in with the User name "Sounak" and Password "sounak"
-    #Then user Clicks on "Accounts Overview"
-    #Then Validate the title of the page in Accounts Overview to be "ParaBank | Accounts Overview"
+    Then user Clicks on "Accounts Overview"
+    Then Validate the title of the page in Accounts Overview to be "ParaBank | Accounts Overview"
 
   Scenario: Playwright Demo test 1 feature 2
     Given User navigate to the URL
     And Validates the title of the page to be "ParaBank | Welcome | Online Banking"
     Then user logs in with the User name "Sounak" and Password "sounak"
-    #Then user Clicks on "Request Loan"
-    #Then Validate the title of the page in Request Loan to be "ParaBank | Loan Request"
+    Then user Clicks on "Request Loan"
+    Then Validate the title of the page in Request Loan to be "ParaBank | Loan Request"
 
 
 
