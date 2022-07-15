@@ -34,9 +34,4 @@ public class AccountsOverviewPage implements PageInterface {
         }
     }
 
-
-    @Override
-    public AccountsOverviewPage get() {
-        return null;
-    }
 }

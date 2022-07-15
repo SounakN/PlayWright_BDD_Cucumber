@@ -41,8 +41,4 @@ public class HomepagePage  implements PageInterface {
         }
     }
 
-    @Override
-    public PageInterface get() {
-        return null;
-    }
 }

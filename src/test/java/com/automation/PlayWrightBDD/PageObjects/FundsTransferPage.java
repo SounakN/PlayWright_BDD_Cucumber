@@ -34,9 +34,4 @@ public class FundsTransferPage  implements PageInterface {
         }
     }
 
-
-    @Override
-    public FundsTransferPage get() {
-        return null;
-    }
 }

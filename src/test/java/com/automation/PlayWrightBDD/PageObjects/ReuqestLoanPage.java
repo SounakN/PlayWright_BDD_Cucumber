@@ -30,8 +30,4 @@ public class ReuqestLoanPage implements PageInterface {
         }
     }
 
-    @Override
-    public PageInterface get() {
-        return null;
-    }
 }

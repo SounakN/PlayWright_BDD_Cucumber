@@ -30,8 +30,4 @@ public class OpenAccountPage implements PageInterface {
         }
     }
 
-    @Override
-    public PageInterface get() {
-        return null;
-    }
 }

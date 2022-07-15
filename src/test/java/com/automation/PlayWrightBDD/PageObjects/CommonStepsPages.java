@@ -63,9 +63,4 @@ public class CommonStepsPages  implements PageInterface  {
     }
 
 
-
-    @Override
-    public CommonStepsPages get() {
-        return null;
-    }
 }

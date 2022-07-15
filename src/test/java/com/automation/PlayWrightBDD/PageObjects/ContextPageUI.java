@@ -2,14 +2,17 @@ package com.automation.PlayWrightBDD.PageObjects;
 
 import com.automation.PlayWrightBDD.Driver.BrowserFactory;
 
+import java.util.function.Consumer;
+import java.util.function.Supplier;
+
 public class ContextPageUI  {
 
-    public static PageInterface _commonStepsPages;
-    public static PageInterface _fundsTransferPage;
-    public static PageInterface _homepagePage;
-    public static PageInterface _openAccountPage;
-    public static PageInterface _accountsOverviewPage;
-    public static PageInterface _requestLoanPage;
+    public static Supplier<PageInterface> _commonStepsPages;
+    public static Supplier<PageInterface> _fundsTransferPage;
+    public static Supplier<PageInterface> _homepagePage;
+    public static Supplier<PageInterface> _openAccountPage;
+    public static Supplier<PageInterface> _accountsOverviewPage;
+    public static Supplier<PageInterface> _requestLoanPage;
 
     public ContextPageUI() {
     }
